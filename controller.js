@@ -2,9 +2,8 @@ const URL = 'https://www.clo-set.com/api/lines?brandId=275848'
 
 
 module.exports = {
-    getBrand: (req,res) =>{
-        res.status(200).send({
-        })
+    getCloset: (req,res) =>{
+        res.status(200).send(URL)
     },
     deleteHouse: (req,res) =>{
         let {id} = req.params
